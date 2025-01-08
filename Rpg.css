@@ -1,0 +1,72 @@
+body {
+    background-image: url('planoDeFundo.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: left -75px top 500px;
+}
+header {
+	display: flex;
+	border: solid 3px black;
+	border-radius: px;
+	padding: 0.5rem;
+	border-radius: 4px;
+	align-items: center;
+	flex-direction: column;
+}
+main > p {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	gap: 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+#Fernando {
+	height: 150px;
+	width: 150px;
+	border: solid 2px black;
+	border-radius: 4px;
+}
+figure {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0, 0.8);
+	color: white;
+	padding: 2rem;
+	border-radius: 5px;
+}
+#CadernoAnota {
+	height: 150px;
+	width: 150px;
+	border: solid 2px black;
+	border-radius: 4px;
+}
+#manias {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0, 0.8);
+	color: white;
+	padding: 1rem;
+	border-radius: 3px;
+}
+h3 {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.6rem;
+	border-radius: 4px;
+}
+h3 {
+	font-weight: 0;
+}
+#stats {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 0.6rem;
+	border-radius: 5px;
+}
+summary {
+	font-weight: bold;
+}
+details {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.6rem;
+	border-radius: 4px;
+}
