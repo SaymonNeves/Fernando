@@ -1,0 +1,226 @@
+body {
+	margin: 0;
+	padding: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, darkred, gray);
+    background-size: 400% 400%;
+    animation: gradientShift 6s ease infinite;
+}
+hr {
+	border: solid 2px black;
+}
+body #main2 {
+    background-image: url('planoDeFundo1.png');
+    background-size: 500px;
+    background-repeat: repeat;
+    background-position: left 0 top 500px;
+    margin: 6px;
+    border: solid 7px black;
+    padding: 4px;
+}
+body p {
+	font-family: 'Roboto' , sans-serif;
+}
+h1, h2, h3, h4, summary {
+	font-family: 'Merriweather' , serif;
+}
+main > p {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	gap: 1rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+h3 {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.6rem;
+	border-radius: 4px;
+	font-weight: 0;
+}
+h5 {
+	background-color: #000000;
+	color: white;
+	padding: 0.6rem;
+	font-size: 16px;
+	border: solid 2px black;
+	border-radius: 5px;
+}
+header {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	border: solid 3px black;
+	padding: 0.5rem;
+	border-radius: 4px;
+	align-items: center;
+	flex-direction: column;
+}
+.imageList {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#Fernando {
+	height: 150px;
+	width: 150px;
+	border: solid 2px black;
+	border-radius: 4px;
+	filter: grayscale(20%);
+}
+figure {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#figure {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0, 0.8);
+	color: white;
+	padding: 2rem;
+	border-radius: 5px;
+}
+#circuloUp {
+	height: 180px;
+	width: 180px;
+	margin: 0;
+	padding: 0;
+}
+#conhecimento {
+	height: 130px;
+	width: 130px;
+	margin: 0;
+	padding: 0;
+}
+#CadernoAnota, #circulo {
+	height: 150px;
+	width: 150px;
+}
+#familia {
+	height: 150px;
+	width: 150px;
+	border: solid 5px black;
+	border-radius: 3px;
+	margin-right: 10px;
+	filter: grayscale(20%);
+}
+#sujeira {
+	height: 400px;
+	width: 375px;
+	border: solid 5px black;
+	max-width: 100%
+}
+#forca {
+    filter: grayscale(80%);
+    opacity: 0.5;
+}
+#orfanato, #forca {
+	height: 300px;
+    width: 300px;
+    border: solid 3px black;
+}
+#hospital {
+	height: 205px;
+    width: 345px;
+    border: solid 3px black;
+    filter: grayscale(35%);
+}
+#telaQuebrada {
+	background-image: url('telaQuebrada.png');
+    background-size: 700px;
+    background-position: left 0 top 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 1rem;
+    border: solid 4px black;
+    border-radius: 5px;
+}
+#manias {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0,0,0, 0.8);
+	color: white;
+	padding: 1rem;
+	border-radius: 3px;
+}
+.stats {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 0.6rem;
+	border-radius: 5px;
+}
+summary {
+	font-weight: bold;
+}
+details {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.6rem;
+	border-radius: 4px;
+}
+#familiaTexto {
+	display: flex;
+	font-size: 14px;
+}
+#começo {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 0.6rem;
+	border-radius: 5px;
+}
+.space {
+	padding-left: 50px;
+}
+spam {
+	display: none;
+}
+spam p {
+	color: white;
+	margin: 20px;
+}
+.Flex {
+	display: flex;
+	justify-content: center;
+}
+#imagem-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 1rem;
+  padding-right: 20px;
+  border-top: solid 5px black;
+  border-bottom: solid 5px black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+#imagem-container button {
+  background: linear-gradient(darkred, white);
+  font-size: 18px;
+  color: #000000;
+  border: none;
+  padding: 10px 100px;
+  border-radius: 5px;
+  font-family: 'Merriweather' , serif;
+  margin-left: 1rem;
+}
+#aviso2 {
+	color: white;
+	font-size: 22px;
+}
+#senha {
+	margin-left: 1rem;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+<section style="position: relative; height: 100vh;">
+    <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        Centralizado com Position
+    </p>
+</section>
